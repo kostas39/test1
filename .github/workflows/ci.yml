@@ -47,5 +47,5 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t your-dockerhub-username/ci-cd-example:latest .
-          docker push your-dockerhub-username/ci-cd-example:latest
+          docker build -t kostas7/ci-cd-example:latest .
+          docker push kostas7/ci-cd-example:latest
